@@ -34,7 +34,7 @@ jobs:
               https://api.github.com/repos/${GITHUB_REPOSITORY}/issues/${PR_NUMBER}/assignees
 
       - name: Label PR based on commits
-        uses: actions/labeler@v2
+        uses: actions/labeler@v5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           sync-labels: true
