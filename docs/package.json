@@ -1,0 +1,27 @@
+{
+  "name": "@ashgw/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "postinstall": "fumadocs-mdx"
+  },
+  "dependencies": {
+    "docs": "link:",
+    "fumadocs-core": "14.7.4",
+    "fumadocs-mdx": "11.3.1",
+    "fumadocs-ui": "14.7.4",
+    "next": "catalog:",
+    "react": "catalog:react18",
+    "react-dom": "catalog:react18"
+  },
+  "devDependencies": {
+    "@types/mdx": "^2.0.13",
+    "@types/node": "22.10.6",
+    "@types/react": "catalog:react18",
+    "@types/react-dom": "catalog:react18",
+    "typescript": "catalog:"
+  }
+}
